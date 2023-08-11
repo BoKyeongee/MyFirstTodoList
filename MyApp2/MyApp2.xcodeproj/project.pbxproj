@@ -16,6 +16,8 @@
 		C018A5DE2A7B8EFC0005939A /* MyApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018A5DD2A7B8EFC0005939A /* MyApp2Tests.swift */; };
 		C018A5E82A7B8EFC0005939A /* MyApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018A5E72A7B8EFC0005939A /* MyApp2UITests.swift */; };
 		C018A5EA2A7B8EFC0005939A /* MyApp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018A5E92A7B8EFC0005939A /* MyApp2UITestsLaunchTests.swift */; };
+		C018A5F72A7B99810005939A /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018A5F62A7B99810005939A /* TodoViewController.swift */; };
+		DC78816C2A8515AD00FAFBD8 /* SegmentedControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC78816B2A8515AD00FAFBD8 /* SegmentedControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C018A5E32A7B8EFC0005939A /* MyApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C018A5E72A7B8EFC0005939A /* MyApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp2UITests.swift; sourceTree = "<group>"; };
 		C018A5E92A7B8EFC0005939A /* MyApp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C018A5F62A7B99810005939A /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		DC78816B2A8515AD00FAFBD8 /* SegmentedControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControllerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C018A5CF2A7B8EFC0005939A /* Assets.xcassets */,
 				C018A5D12A7B8EFC0005939A /* LaunchScreen.storyboard */,
 				C018A5D42A7B8EFC0005939A /* Info.plist */,
+				C018A5F62A7B99810005939A /* TodoViewController.swift */,
+				DC78816B2A8515AD00FAFBD8 /* SegmentedControllerTableViewCell.swift */,
 			);
 			path = MyApp2;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C018A5F72A7B99810005939A /* TodoViewController.swift in Sources */,
 				C018A5CB2A7B8EFA0005939A /* ViewController.swift in Sources */,
+				DC78816C2A8515AD00FAFBD8 /* SegmentedControllerTableViewCell.swift in Sources */,
 				C018A5C72A7B8EFA0005939A /* AppDelegate.swift in Sources */,
 				C018A5C92A7B8EFA0005939A /* SceneDelegate.swift in Sources */,
 			);
